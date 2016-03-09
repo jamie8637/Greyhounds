@@ -1,0 +1,198 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+  Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+h2  {
+font-size : 24px;
+font-family: inherit;
+color : black;
+
+margin-left: 30px;
+margin-top : 50px;
+font-weight: normal;
+}
+
+
+#page
+{
+}
+
+#header
+{
+	clear: both;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: blue; }
+
+.content-item
+{
+	margin: 30px;
+	float: left;
+	clear: left;
+}
+
+.detailActionContainer {
+	display: block;
+	clear: both;
+	padding-top: 2px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+.image
+{
+	float: left;
+	display: inline;	
+}
+
+.listDetail
+{
+	float: right;
+}
+
+.detail
+{
+}
+
+.formButtons {
+	display: block;
+	clear: both;
+
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+.inputField {
+	float: left;
+	clear: left;
+
+	margin: 4px 5px 0px 5px;
+}
+
+.inputField label {
+	display: inline-block;
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.inputField input {
+	display: inline-block;
+	float: left;
+	width: 250px;
+}
+
+.inputField select {
+	display: inline-block;
+	float: left;
+	width: 250px;
+}
+
+.inputField textarea {
+	display: inline-block;
+	float: left;
+	width: 250px;
+}
+
+.sponsor
+{
+	float: left;
+	clear: left;
+	padding-right: 10px;
+	text-align: left;
+}
+
+.sponsors
+{
+	float: right;
+	display: inline;
+	display: inline-block;
+	clear: left;
+	margin-left: 175px;
+}
+
+#footer
+{
+	clear: left;
+	background: #ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+
+SELECT {
+    width: 250px;
+    box-sizing: border-box;
+}
+
+#shuttle-buttons {
+	display: inline;
+	float: left;
+	margin: 5px;
+}
+
+#leftValues {
+	width: 250px;
+}
+
+#rightValues {
+	width: 275px;
+}
+
+
+#btnRight, #btnLeft {
+	width: 25px;
+	clear: both;
+}
+
+SECTION {	
+    padding: 8px;
+    overflow: auto;
+}
+
+SECTION > DIV {
+    float: left;
+    padding: 4px;
+}
+
+SECTION > DIV + DIV {	
+    width: 40px;
+    text-align: center;
+}
